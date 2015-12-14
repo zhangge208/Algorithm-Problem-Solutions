@@ -1,6 +1,6 @@
 #Number of Islands#
 
-##题目##
+##Problem##
 
 Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 
@@ -22,7 +22,7 @@ Answer: 1
 
 Answer: 3
 
-##代码##
+##Code##
 
 	public class Solution {
 	    public int numIslands(char[][] grid) {
@@ -54,6 +54,20 @@ Answer: 3
 	    }
 	}
 
-##思路##
+##Solution and Analysis##
+BFS典型题目
 
-follow up：如果不是全一，而是有数字代表面积，求各岛屿的面积
+坑： 先要保证数组本身不为null， 长度不为0，不能写成下面这样：
+
+	if (grid == null || grid[0] == null || grid.length == 0 || grid[0].length == 0) {
+            return 0;
+    }
+
+则会报错：Runtime Error 
+
+	Runtime Error Message:
+	Line 3: java.lang.ArrayIndexOutOfBoundsException: 0
+	Last executed input:
+
+follow up I：如果不是全一，而是有数字代表面积，求各岛屿的面积
+follow up II：lintcode Number of Islands II
