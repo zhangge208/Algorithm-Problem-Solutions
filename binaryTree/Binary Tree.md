@@ -55,26 +55,6 @@
 
 2.**Conquer**：将子问题的解合并，返回问题的解
 
-###Problem List###
-
-**Traversal**
-
-[Binary Tree Preorder Traversal](http:)
-
-[Binary Tree Inorder Traversal](http:)
-
-[Binary Tree Postorder Traversal](http:)
-
-**Divide & Conquer**
-
-[Maximum Depth of Binary Tree](http:)
-
-[Minimum Depth of Binary Tree](http:)
-
-[Balanced Binary Tree](http:)
-
-[Binary Tree Maximum Path Sum](http:) – **the most important question** 
-
 ###Binary Tree DFS Template###
 
 	Template 1:Traverse
@@ -111,6 +91,25 @@
 		}
 	}
 
+###Problem List###
+
+**Traversal**
+
+[Binary Tree Preorder Traversal](http:)
+
+[Binary Tree Inorder Traversal](http:)
+
+[Binary Tree Postorder Traversal](http:)
+
+**Divide & Conquer**
+
+[Maximum Depth of Binary Tree](http:)
+
+[Minimum Depth of Binary Tree](http:)
+
+[Balanced Binary Tree](http:)
+
+[Binary Tree Maximum Path Sum](http:) – **the most important question** 
 
 
 

@@ -1,6 +1,6 @@
 #Binary Tree Postorder Traversal#
 
-##题目##
+##Problem##
 
 Given a binary tree, return the postorder traversal of its nodes' values.
 
@@ -57,16 +57,17 @@ Note: Recursive solution is trivial, could you do it iteratively?
 	        return result;
 	    } 
 	}
+
 	b) using one stack
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
+	/**
+	 * Definition for a binary tree node.
+	 * public class TreeNode {
+	 *     int val;
+	 *     TreeNode left;
+	 *     TreeNode right;
+	 *     TreeNode(int x) { val = x; }
+	 * }
+	 */
 	public class Solution {
 	    public List<Integer> postorderTraversal(TreeNode root) {
 	        Stack<TreeNode> s1 = new Stack<TreeNode>();
@@ -99,6 +100,7 @@ Note: Recursive solution is trivial, could you do it iteratively?
 	        return result;
 	    } 
 	}
+
 	version 2：Traversal
 	/**
 	 * Definition for a binary tree node.
@@ -124,6 +126,7 @@ Note: Recursive solution is trivial, could you do it iteratively?
 	    postorder.add(root.val);
 	    }
 	}
+
 	version 3：Divide & Conquer
 	/**
 	 * Definition for binary tree
@@ -153,8 +156,6 @@ Note: Recursive solution is trivial, could you do it iteratively?
 	        return result;
 	    }
 	}
-
-
 
 ##Solution and Analysis##
 
